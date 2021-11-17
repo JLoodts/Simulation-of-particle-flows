@@ -1,0 +1,14 @@
+
+------ Timer-results: ------
+ Initialisatie:     0.17 sec
+   DetectWalls:     2.54 sec
+   DetectParts:     2.66 sec
+     MoveParts:     2.63 sec
+     MoveWalls:     2.01 sec
+        Update:     2.54 sec
+          Save:     2.43 sec
+        Output:        0 sec
+     OverSpeed:        0 tms
+       TooDeep:        0 tms
+       NrParts:        1 pcs
+SimulationTime:   0.1001 sec

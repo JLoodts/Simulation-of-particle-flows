@@ -1,0 +1,27 @@
+-inputfile-
+
+-particles-
+rmin 0.003 rmax 0.003
+numberparticles 1
+pnr 0 m 0.000148 r 0.003 kn 1e+006 ks 1e+006 dn 35 ds 35 mud 0.35 mus 0.4 posx 0.26882 posy 0.649128 posz 0.0248772 velx -0.767958 vely -0.00768549 velz -0.905118 angx 0.188312 angy -18.8793 angz 0 angvelx 1.89912 angvely -190.406 angvelz 0
+-end-particles-
+
+-space-
+spacex 0.75 spacey 0.75 spacez 0.1
+-end-space-
+
+-calculation-
+timestep 1e-006
+runtime 0.1001
+numberloops 100000
+-end-calculation-
+
+-walls-
+numberwalls 4
+wnr 0 ax 0 ay 0.3 az 0.0637669 bx 0.00736425 by 0.110464 bz 0.0782659 px 0 py 0 pz 0 dpx 0 dpy 0 dpz 0 rx 0.35 ry 0.35 rz 0 ampx 0 ampy 0 ampz 0 freqx 0 freqy 0 freqz 0 angvelx 0 angvely 0 angvelz 0.01
+wnr 1 ax 100 ay 0 az 0 bx 0 by 100 bz 0 px -50 py -50 pz 0 dpx 0 dpy 0 dpz 0 rx 0 ry 0 rz 0 ampx 0 ampy 0 ampz 0 freqx 0 freqy 0 freqz 0 angvelx 0 angvely 0 angvelz 0
+wnr 2 ax 0.32 ay 0 az 0.0722692 bx -0.00440585 by 0 bz 0.0195086 px 0 py 0.02 pz 0.00415823 dpx 0 dpy 0 dpz 0 rx 0.35 ry 0.35 rz 0 ampx 0 ampy 0 ampz 0 freqx 0 freqy 0 freqz 0 angvelx 0 angvely 0 angvelz 0
+wnr 3 ax -0.32 ay 0 az 0.0722692 bx 0.00440585 by 0 bz 0.0195086 px 0 py -0.02 pz 0.00415823 dpx 0 dpy 0 dpz 0 rx 0.35 ry 0.35 rz 0 ampx 0 ampy 0 ampz 0 freqx 0 freqy 0 freqz 0 angvelx 0 angvely 0 angvelz 0
+-end-walls-
+
+-end-inputfile-
